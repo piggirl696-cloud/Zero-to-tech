@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  </head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页</title>
+    <!-- 把 CSS 插入到这个位置 -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="card">
+      <h1>欢迎来到我的网页</h1>
+      <p id="msg"> 这是一个简单的网页示例。</p>
+      <button onclick="changeText()">点击我</button>
+    </div>
+    <script>
+      function changeText() {
+        document.getElementById("msg").innerText = "你点击了按钮！";
+      }
+    </script>
+  </body>
+</html>
